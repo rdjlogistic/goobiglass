@@ -153,6 +153,41 @@
   height: 100%;
 }
 
+.goobi-footer-wrapper {
+  padding: 15px 0;
+  background: #0D121A;
+}
+.goobi-footer-wrapper .goobi-footer-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.goobi-footer-wrapper .goobi-footer-block .goobi-logo-wrapper {
+  width: 98px;
+  height: auto;
+  overflow: hidden;
+}
+@media (max-width: 575.98px) {
+  .goobi-footer-wrapper .goobi-footer-block .goobi-logo-wrapper {
+    width: 55px;
+    height: auto;
+  }
+}
+.goobi-footer-wrapper .goobi-footer-block .goobi-logo-wrapper img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+.goobi-footer-wrapper .goobi-footer-block p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0.29px;
+}
+
 .goobiglass-layout-wrapper .goobi-banner-wrapper {
   background: #0068AC;
   width: 100%;
