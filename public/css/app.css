@@ -298,6 +298,120 @@
   -o-object-position: center;
      object-position: center;
 }
+.goobiglass-layout-wrapper .goobi-safe-relaxing-details {
+  padding: 120px 0;
+}
+.goobiglass-layout-wrapper .goobi-safe-relaxing-details .row {
+  align-items: center;
+}
+.goobiglass-layout-wrapper .goobi-safe-relaxing-details .goobi-car-img-box-cover {
+  width: 100%;
+  height: 385px;
+  background: #0D121A;
+}
+.goobiglass-layout-wrapper .goobi-safe-relaxing-details .goobi-car-img-box-cover .goobi-car-img-wrapper {
+  width: 100%;
+  height: 248px;
+  overflow: hidden;
+  position: absolute;
+  right: 65px;
+  bottom: 0;
+}
+.goobiglass-layout-wrapper .goobi-safe-relaxing-details .goobi-car-img-box-cover .goobi-car-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.goobiglass-layout-wrapper .goobi-safe-relaxing-details .goobi-safe-details {
+  margin-left: 35px;
+}
+.goobiglass-layout-wrapper .goobi-safe-relaxing-details .goobi-safe-details h4 {
+  font-size: 30px;
+  color: #0D121A;
+}
+.goobiglass-layout-wrapper .goobi-safe-relaxing-details .goobi-safe-details h6 {
+  margin-top: 15px;
+  font-size: 21px;
+  line-height: 30px;
+  color: #576273;
+  font-family: "Lato", sans-serif;
+}
+.goobiglass-layout-wrapper .goobi-core-values-section {
+  padding: 100px 0 40px;
+  background: #F8F8F8;
+}
+.goobiglass-layout-wrapper .goobi-core-values-section .goobi-work-details {
+  margin-bottom: 45px;
+}
+.goobiglass-layout-wrapper .goobi-core-values-section .subtitle-main {
+  margin-bottom: 15px;
+  color: #0D121A;
+}
+.goobiglass-layout-wrapper .goobi-core-values-section .goobi-core-values-details {
+  margin-bottom: 45px;
+}
+.goobiglass-layout-wrapper .goobi-core-values-section .goobi-core-values-details h4 {
+  font-size: 80px;
+  line-height: 100px;
+  color: #e3e3e3;
+  letter-spacing: -1.04px;
+  font-family: "Songti SC";
+  font-weight: normal;
+}
+.goobiglass-layout-wrapper .goobi-car-view-section {
+  padding: 80px 0;
+}
+.goobiglass-layout-wrapper .goobi-car-view-section .goobi-car-view-details {
+  margin-bottom: 35px;
+  margin-left: -8px;
+}
+.goobiglass-layout-wrapper .goobi-car-view-section .goobi-car-view-details .subtitle-main {
+  color: #0D121A;
+  margin-bottom: 10px;
+}
+.goobiglass-layout-wrapper .goobi-car-view-section .row .col-md-6,
+.goobiglass-layout-wrapper .goobi-car-view-section .row .col-lg-4 {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.goobiglass-layout-wrapper .goobi-car-view-section .goobi-car-view-list-block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 30px;
+  height: calc(100% - 30px);
+}
+.goobiglass-layout-wrapper .goobi-car-view-section .goobi-car-view-list-block .goobi-car-view-img {
+  width: 100%;
+  height: 198px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  background: #ffffff;
+  position: relative;
+}
+.goobiglass-layout-wrapper .goobi-car-view-section .goobi-car-view-list-block .goobi-car-view-img::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(45deg, #E2FB93 0%, #64F557 100%);
+}
+.goobiglass-layout-wrapper .goobi-car-view-section .goobi-car-view-list-block .goobi-car-view-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
 
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
@@ -10429,4 +10543,59 @@ main {
     font-size: 25px;
     line-height: 29px;
   }
+}
+
+.blog-title-main {
+  font-size: 24px;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #0D121A;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+@media (max-width: 1199.98px) {
+  .blog-title-main {
+    font-size: 22px;
+  }
+}
+@media (max-width: 991.98px) {
+  .blog-title-main {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  .blog-title-main {
+    font-size: 18px;
+  }
+}
+@media (max-width: 575.98px) {
+  .blog-title-main {
+    font-size: 17px;
+  }
+}
+
+.sub-paragraph-text {
+  font-size: 18px;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #0D121A;
+  font-weight: 500;
+}
+@media (max-width: 991.98px) {
+  .sub-paragraph-text {
+    font-size: 17px;
+  }
+}
+@media (max-width: 767.98px) {
+  .sub-paragraph-text {
+    font-size: 16px;
+  }
+}
+
+.goobi-paragraph-text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #0D121A;
+  font-family: "Lato", sans-serif;
 }

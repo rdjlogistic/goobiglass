@@ -20,7 +20,6 @@
     <link href="{{ asset('plugins/aos/aos.css') }}" rel="stylesheet">
     <link href="{{ asset('fonts/stylesheet.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('plugins/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/app.css')."?version=". env("APP_CSS_VERSION", 1) }}" rel="stylesheet">
 </head>
 
 <body>
@@ -31,7 +30,6 @@
         </main>
         @include('includes.footer')
     </div>
-    <script src="{{ asset('js/app.js')."?version=". env("APP_JS_VERSION", 1) }}"></script>
     <script src="{{ asset('plugins/aos/aos.js') }}"></script>
 
     
