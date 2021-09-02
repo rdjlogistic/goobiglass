@@ -1,0 +1,230 @@
+.coaq-header-wrapper{
+    padding: 20px 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 3;
+    transition: all 0.3s ease-in-out;
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0,0,0,0.00) 100%);
+    @include media-breakpoint-down(sm) {
+        padding: 15px 0;
+    } 
+    &.coaq-team-inner-page-header{
+        .navbar{
+            .coaq-logo-wrapper{
+                svg{
+                    path{
+                        fill: #283890;
+                    }
+                }
+            }
+            .navbar-collapse{
+                .navbar-nav{
+                    .nav-item{
+                        .nav-link{
+                            &:hover{
+                                color: #283890;
+                            }
+                        }
+                        &.active{
+                            .nav-link{
+                                color: #283890;
+                            }
+                        }
+                    }
+                }
+            }
+            .navbar-toggler{
+                .toggler-iconsnemu{
+                    background: #283890;
+                }
+            }
+        }
+        &.coaq-scroll-header{
+            .navbar{
+                .coaq-logo-wrapper{
+                    svg{
+                        path{
+                            fill: $white;
+                        }
+                    }
+                }
+                .navbar-collapse{
+                    .navbar-nav{
+                        .nav-item{
+                            .nav-link{
+                                &:hover{
+                                    color: $white;
+                                }
+                            }
+                            &.active{
+                                .nav-link{
+                                    color: $white;
+                                }
+                            }
+                        }
+                    }
+                }
+                .navbar-toggler{
+                    .toggler-iconsnemu{
+                        background: $white;
+                    }
+                }
+            }
+        }
+    }
+    .navbar{
+        padding: 0;
+        .coaq-logo-wrapper{
+            width: 98px;
+            height: auto;
+            overflow: hidden;
+            @include media-breakpoint-down(xs) {
+                width: 55px;
+                height: auto;
+            } 
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                object-position: center;
+            }
+        }
+        .navbar-collapse{
+            justify-content: flex-end;
+            .navbar-nav{
+                @include media-breakpoint-down(md) { 
+                    display: inline-flex;
+                    margin-top: 35px;
+                } 
+                .nav-item{
+                    margin-right: 30px;
+                    @include media-breakpoint-down(md) { 
+                        margin-right: 0px;
+                        margin-bottom: 30px;
+                    }
+                    &:last-child{
+                        margin-right: 0px; 
+                    }
+                    .nav-link{
+                        font-size: 14px;
+                        font-weight: bold;
+                        color: $lightgrey;
+                        letter-spacing: 1px;
+                        font-family: $font-family-SourcePro;
+                        padding: 0;
+                        transition: all 0.3s ease-in-out;
+                        &:hover{
+                            color: $white;
+                        }
+                    }
+                    &.active{
+                        .nav-link{
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+        .navbar-toggler{
+            padding: 0;
+            outline: none;
+            box-shadow: none;
+            .toggler-iconsnemu{
+                width: 27px;
+                height: 2px;
+                margin-bottom: 6px;
+                background: $white;
+                display: block;
+                transition: all 0.3s ease-in-out;
+                position: relative;
+                &:first-child {
+                    transform: rotate(45deg);
+                    top: 8px;
+                }
+                &:nth-of-type(2) {
+                    opacity: 0;
+                }
+                &:last-child {
+                    transform: rotate(-45deg);
+                    top: -8px;
+                    margin-bottom: 0px;
+                }
+            }
+            &.collapsed {
+                .toggler-iconsnemu {
+                    transform: rotate(0);
+                    top: 0;
+                    &:nth-of-type(2) {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+    &.coaq-scroll-header{
+        position: fixed;
+        top: 0px;
+        left: 0;
+        right: 0;
+        z-index: 3;
+        box-shadow: 0 24px 48px 0 rgb(50 54 72 / 8%);
+        animation: smoothScroll 0.8s forwards;
+        background: $black;
+        &::before{
+            background: transparent;
+            height: auto;
+        }
+        @keyframes smoothScroll {
+            0% {
+                transform: translateY(-100px);
+                -webkit-transform: translateY(-100px);
+                -moz-transform: translateY(-100px);
+                -ms-transform: translateY(-100px);
+                -o-transform: translateY(-100px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+    }
+} 
+.open-toggler-menu{
+    overflow: hidden;
+    .coaq-header-wrapper{
+        background: $black;
+        height: 100%;
+    }
+    .coaq-team-inner-page-header{
+        .navbar{
+            .coaq-logo-wrapper{
+                svg{
+                    path{
+                        fill: $white;
+                    }
+                }
+            }
+            .navbar-collapse{
+                .navbar-nav{
+                    .nav-item{
+                        .nav-link{
+                            &:hover{
+                                color: $white;
+                            }
+                        }
+                        &.active{
+                            .nav-link{
+                                color: $white;
+                            }
+                        }
+                    }
+                }
+            }
+            .navbar-toggler{
+                .toggler-iconsnemu{
+                    background: $white;
+                }
+            }
+        }
+    }
+}

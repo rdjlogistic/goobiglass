@@ -1,4 +1,193 @@
 @charset "UTF-8";
+.coaq-header-wrapper {
+  padding: 20px 0;
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 3;
+  transition: all 0.3s ease-in-out;
+  background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+}
+@media (max-width: 767.98px) {
+  .coaq-header-wrapper {
+    padding: 15px 0;
+  }
+}
+.coaq-header-wrapper.coaq-team-inner-page-header .navbar .coaq-logo-wrapper svg path {
+  fill: #283890;
+}
+.coaq-header-wrapper.coaq-team-inner-page-header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #283890;
+}
+.coaq-header-wrapper.coaq-team-inner-page-header .navbar .navbar-collapse .navbar-nav .nav-item.active .nav-link {
+  color: #283890;
+}
+.coaq-header-wrapper.coaq-team-inner-page-header .navbar .navbar-toggler .toggler-iconsnemu {
+  background: #283890;
+}
+.coaq-header-wrapper.coaq-team-inner-page-header.coaq-scroll-header .navbar .coaq-logo-wrapper svg path {
+  fill: #ffffff;
+}
+.coaq-header-wrapper.coaq-team-inner-page-header.coaq-scroll-header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #ffffff;
+}
+.coaq-header-wrapper.coaq-team-inner-page-header.coaq-scroll-header .navbar .navbar-collapse .navbar-nav .nav-item.active .nav-link {
+  color: #ffffff;
+}
+.coaq-header-wrapper.coaq-team-inner-page-header.coaq-scroll-header .navbar .navbar-toggler .toggler-iconsnemu {
+  background: #ffffff;
+}
+.coaq-header-wrapper .navbar {
+  padding: 0;
+}
+.coaq-header-wrapper .navbar .coaq-logo-wrapper {
+  width: 98px;
+  height: auto;
+  overflow: hidden;
+}
+@media (max-width: 575.98px) {
+  .coaq-header-wrapper .navbar .coaq-logo-wrapper {
+    width: 55px;
+    height: auto;
+  }
+}
+.coaq-header-wrapper .navbar .coaq-logo-wrapper img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+.coaq-header-wrapper .navbar .navbar-collapse {
+  justify-content: flex-end;
+}
+@media (max-width: 991.98px) {
+  .coaq-header-wrapper .navbar .navbar-collapse .navbar-nav {
+    display: inline-flex;
+    margin-top: 35px;
+  }
+}
+.coaq-header-wrapper .navbar .navbar-collapse .navbar-nav .nav-item {
+  margin-right: 30px;
+}
+@media (max-width: 991.98px) {
+  .coaq-header-wrapper .navbar .navbar-collapse .navbar-nav .nav-item {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+}
+.coaq-header-wrapper .navbar .navbar-collapse .navbar-nav .nav-item:last-child {
+  margin-right: 0px;
+}
+.coaq-header-wrapper .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  font-size: 14px;
+  font-weight: bold;
+  color: #8F8F8F;
+  letter-spacing: 1px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 0;
+  transition: all 0.3s ease-in-out;
+}
+.coaq-header-wrapper .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #ffffff;
+}
+.coaq-header-wrapper .navbar .navbar-collapse .navbar-nav .nav-item.active .nav-link {
+  color: #ffffff;
+}
+.coaq-header-wrapper .navbar .navbar-toggler {
+  padding: 0;
+  outline: none;
+  box-shadow: none;
+}
+.coaq-header-wrapper .navbar .navbar-toggler .toggler-iconsnemu {
+  width: 27px;
+  height: 2px;
+  margin-bottom: 6px;
+  background: #ffffff;
+  display: block;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+.coaq-header-wrapper .navbar .navbar-toggler .toggler-iconsnemu:first-child {
+  transform: rotate(45deg);
+  top: 8px;
+}
+.coaq-header-wrapper .navbar .navbar-toggler .toggler-iconsnemu:nth-of-type(2) {
+  opacity: 0;
+}
+.coaq-header-wrapper .navbar .navbar-toggler .toggler-iconsnemu:last-child {
+  transform: rotate(-45deg);
+  top: -8px;
+  margin-bottom: 0px;
+}
+.coaq-header-wrapper .navbar .navbar-toggler.collapsed .toggler-iconsnemu {
+  transform: rotate(0);
+  top: 0;
+}
+.coaq-header-wrapper .navbar .navbar-toggler.collapsed .toggler-iconsnemu:nth-of-type(2) {
+  opacity: 1;
+}
+.coaq-header-wrapper.coaq-scroll-header {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  box-shadow: 0 24px 48px 0 rgba(50, 54, 72, 0.08);
+  -webkit-animation: smoothScroll 0.8s forwards;
+          animation: smoothScroll 0.8s forwards;
+  background: #0D121A;
+}
+.coaq-header-wrapper.coaq-scroll-header::before {
+  background: transparent;
+  height: auto;
+}
+@-webkit-keyframes smoothScroll {
+  0% {
+    transform: translateY(-100px);
+    -webkit-transform: translateY(-100px);
+    -moz-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes smoothScroll {
+  0% {
+    transform: translateY(-100px);
+    -webkit-transform: translateY(-100px);
+    -moz-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.open-toggler-menu {
+  overflow: hidden;
+}
+.open-toggler-menu .coaq-header-wrapper {
+  background: #0D121A;
+  height: 100%;
+}
+.open-toggler-menu .coaq-team-inner-page-header .navbar .coaq-logo-wrapper svg path {
+  fill: #ffffff;
+}
+.open-toggler-menu .coaq-team-inner-page-header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #ffffff;
+}
+.open-toggler-menu .coaq-team-inner-page-header .navbar .navbar-collapse .navbar-nav .nav-item.active .nav-link {
+  color: #ffffff;
+}
+.open-toggler-menu .coaq-team-inner-page-header .navbar .navbar-toggler .toggler-iconsnemu {
+  background: #ffffff;
+}
+
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

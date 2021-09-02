@@ -26,11 +26,41 @@
 <body>
     <div id="app">
         @include('includes.header')
-        <main class="py-4">
+        <main class="goobiglass-main">
             @yield('content')
         </main>
         @include('includes.footer')
     </div>
+    <script src="{{ asset('js/app.js')."?version=". env("APP_JS_VERSION", 1) }}"></script>
+    <script src="{{ asset('plugins/aos/aos.js') }}"></script>
+
+    
+    <script type="text/javascript">
+        AOS.init({once:'true'});
+    </script>
+    <script>
+        var header = $(".coaq-header-wrapper");
+            $(this).scrollTop(0);
+            $(window).scroll(function() {
+                var scroll = $(window).scrollTop();
+                if (scroll >= 100) {
+                    header.addClass("coaq-scroll-header");
+                } else {
+                    header.removeClass("coaq-scroll-header");
+                }
+            });
+            $(document).ready(function(){
+                $(".navbar-toggler").click(function(){
+                    var nav_button = $(this).attr('aria-expanded')
+                    if(nav_button == "true") {
+                        document.body.classList.remove("open-toggler-menu")
+                    } else {
+                        document.body.classList.add("open-toggler-menu")
+                    }
+                });
+            });
+    </script>
+   
 </body>
 
 </html>
