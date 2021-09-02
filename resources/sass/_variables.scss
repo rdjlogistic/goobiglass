@@ -2,18 +2,19 @@
 $body-bg: #f8fafc;
 
 // Typography
-$font-family-sans-serif: 'Nunito', sans-serif;
-$font-size-base: 0.9rem;
-$line-height-base: 1.6;
+$font-family-playfair: 'Playfair Display', sans-serif;
+$font-family-lato: 'Lato', sans-serif;
+$font-family-SourcePro: 'Source Sans Pro', sans-serif;
+$font-family-SongtiSC: 'Songti SC';
 
 // Colors
-$blue: #3490dc;
-$indigo: #6574cd;
-$purple: #9561e2;
-$pink: #f66d9b;
-$red: #e3342f;
-$orange: #f6993f;
-$yellow: #ffed4a;
-$green: #38c172;
-$teal: #4dc0b5;
-$cyan: #6cb2eb;
+$black: #0D121A;
+$white: #ffffff;
+$primary: #9FD067;
+$lightBlue: #576273;
+$lightgrey: #8F8F8F;
+
+// media-breakpoint-down //
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";

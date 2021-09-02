@@ -1,8 +1,53 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+
+body {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-weight: 400;
+    height: 100%;
+    font-size: 14px;
+    line-height: 1.5;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $black;
+    background: $white;
+    appearance: auto;
+    -moz-appearance: auto;
+    -webkit-appearance: auto;
+    font-family: $font-family-playfair;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul{
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    list-style-type: none;
+    text-decoration: none !important;
+}
+a{
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        opacity: 0.8;
+    }
+}
+main{
+    min-height: 700px;
+}
