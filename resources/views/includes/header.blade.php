@@ -13,10 +13,10 @@
 
 ?>
 
-<header class="coaq-header-wrapper">
+<header class="goobi-header-wrapper">
     <div class="container">
         <nav class="navbar navbar-expand-lg">
-            <a class="coaq-logo-wrapper" href="{{url('/')}}">
+            <a class="goobi-logo-wrapper" href="{{url('/')}}">
                 <img src="{{asset('images/goobiglasa.png') }}" alt="">
             </a>
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -30,17 +30,11 @@
                     <li class="nav-item {{ setActiveMenu("/") }}">
                         <a class="nav-link" href="{{url('/')}}">HOME</a>
                     </li>
-                    <li class="nav-item {{ setActiveMenu("properties") }}">
-                        <a class="nav-link" href="{{url('/properties')}}">PROPERTIES</a>
+                    <li class="nav-item {{ setActiveMenu("colors") }}">
+                        <a class="nav-link" href="{{url('/Colors')}}">Colors</a>
                     </li>
                     <li class="nav-item {{ setActiveMenu("about") }}">
                         <a class="nav-link" href="{{url('/about')}}">ABOUT US</a>
-                    </li>
-                    <li class="nav-item {{ setActiveMenu("investors") }}">
-                        <a class="nav-link" href="{{url('/investors')}}">INVESTORS</a>
-                    </li>
-                    <li class="nav-item {{ setActiveMenu("blog") }}">
-                        <a class="nav-link" href="{{url('/blog')}}">BLOG</a>
                     </li>
                     <li class="nav-item {{ setActiveMenu("contact") }}">
                         <a class="nav-link" href="{{url('/contact')}}">CONTACT</a>

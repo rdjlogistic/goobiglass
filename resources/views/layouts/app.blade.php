@@ -39,14 +39,14 @@
         AOS.init({once:'true'});
     </script>
     <script>
-        var header = $(".coaq-header-wrapper");
+        var header = $(".goobi-header-wrapper");
             $(this).scrollTop(0);
             $(window).scroll(function() {
                 var scroll = $(window).scrollTop();
                 if (scroll >= 100) {
-                    header.addClass("coaq-scroll-header");
+                    header.addClass("goobi-scroll-header");
                 } else {
-                    header.removeClass("coaq-scroll-header");
+                    header.removeClass("goobi-scroll-header");
                 }
             });
             $(document).ready(function(){

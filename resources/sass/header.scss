@@ -1,4 +1,4 @@
-.coaq-header-wrapper{
+.goobi-header-wrapper{
     padding: 20px 0;
     position: absolute;
     right: 0;
@@ -9,73 +9,9 @@
     @include media-breakpoint-down(sm) {
         padding: 15px 0;
     } 
-    &.coaq-team-inner-page-header{
-        .navbar{
-            .coaq-logo-wrapper{
-                svg{
-                    path{
-                        fill: #283890;
-                    }
-                }
-            }
-            .navbar-collapse{
-                .navbar-nav{
-                    .nav-item{
-                        .nav-link{
-                            &:hover{
-                                color: #283890;
-                            }
-                        }
-                        &.active{
-                            .nav-link{
-                                color: #283890;
-                            }
-                        }
-                    }
-                }
-            }
-            .navbar-toggler{
-                .toggler-iconsnemu{
-                    background: #283890;
-                }
-            }
-        }
-        &.coaq-scroll-header{
-            .navbar{
-                .coaq-logo-wrapper{
-                    svg{
-                        path{
-                            fill: $white;
-                        }
-                    }
-                }
-                .navbar-collapse{
-                    .navbar-nav{
-                        .nav-item{
-                            .nav-link{
-                                &:hover{
-                                    color: $white;
-                                }
-                            }
-                            &.active{
-                                .nav-link{
-                                    color: $white;
-                                }
-                            }
-                        }
-                    }
-                }
-                .navbar-toggler{
-                    .toggler-iconsnemu{
-                        background: $white;
-                    }
-                }
-            }
-        }
-    }
     .navbar{
         padding: 0;
-        .coaq-logo-wrapper{
+        .goobi-logo-wrapper{
             width: 98px;
             height: auto;
             overflow: hidden;
@@ -109,11 +45,12 @@
                     .nav-link{
                         font-size: 14px;
                         font-weight: bold;
-                        color: $lightgrey;
+                        color: $white;
                         letter-spacing: 1px;
                         font-family: $font-family-SourcePro;
                         padding: 0;
                         transition: all 0.3s ease-in-out;
+                        text-transform: uppercase;
                         &:hover{
                             color: $white;
                         }
@@ -162,7 +99,7 @@
             }
         }
     }
-    &.coaq-scroll-header{
+    &.goobi-scroll-header{
         position: fixed;
         top: 0px;
         left: 0;
@@ -191,40 +128,9 @@
 } 
 .open-toggler-menu{
     overflow: hidden;
-    .coaq-header-wrapper{
+    .goobi-header-wrapper{
         background: $black;
         height: 100%;
     }
-    .coaq-team-inner-page-header{
-        .navbar{
-            .coaq-logo-wrapper{
-                svg{
-                    path{
-                        fill: $white;
-                    }
-                }
-            }
-            .navbar-collapse{
-                .navbar-nav{
-                    .nav-item{
-                        .nav-link{
-                            &:hover{
-                                color: $white;
-                            }
-                        }
-                        &.active{
-                            .nav-link{
-                                color: $white;
-                            }
-                        }
-                    }
-                }
-            }
-            .navbar-toggler{
-                .toggler-iconsnemu{
-                    background: $white;
-                }
-            }
-        }
-    }
 }
+ 

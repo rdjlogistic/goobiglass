@@ -1,6 +1,7 @@
 // Variables
 @import 'variables';
 @import 'header';
+@import 'landing';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
@@ -50,4 +51,60 @@ a{
 }
 main{
     min-height: 700px;
+}
+
+// commen css start //  
+.goobi-theme-btn-main{
+    width: 160px;
+    padding: 12px;
+    border: 1px solid $primary;
+    outline: none;
+    box-shadow: none;
+    background: $primary;
+    font-family: $font-family-SourcePro;
+    font-size: 14px;
+    color: $white;
+    letter-spacing: 2px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    font-weight: 700;
+    border-radius: 4px;
+    text-transform: uppercase;
+    @include media-breakpoint-down(xs) {
+        width: 145px;
+        padding: 10px 12px;
+    } 
+    &:hover{
+        opacity: 0.8;
+        color: $white;
+    }
+    &.goobi-ourline-btn{
+        background: transparent;
+        border-color: $white;
+        transition: all 0.3s ease-in-out;
+        margin-left: 15px;
+        &:hover{
+            background: $primary;
+            border-color: $primary;
+        }
+    }
+}
+.subtitle-main{
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 0.5px;
+    color: $white;
+    margin-bottom: 15px; 
+    @include media-breakpoint-down(md) {
+        font-size: 32px;
+        line-height: 40px; 
+    } 
+    @include media-breakpoint-down(sm) {
+        font-size: 28px;
+        line-height: 33px; 
+    } 
+    @include media-breakpoint-down(xs) {
+        font-size: 25px;
+        line-height: 29px; 
+    } 
 }
