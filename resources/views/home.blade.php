@@ -60,6 +60,30 @@
                 </div>
             </div>
         </section>
+        <section>
+            <div class="container">
+                <div class="col-md-7 col-lg-8">
+                    <div class="">
+                        <div class="">
+
+                        </div>
+                        <div class="">
+                            <div class="">
+                                <p>20" M STAR-SPOKE BI-COLOR WHEELS, STYLE 740M WITH ALL-SEASON RUN-FLAT TIRES</p>
+                                <h6 class="blog-title-main">Convenience and safety to keep you moving all year.</h6>
+                            </div>
+                            <div class="">
+                                <p>MSRP AS BUILT</p>
+                                <h6 class="blog-title-main">$69,750</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    
+                </div>
+            </div>
+        </section>
         <section class="goobi-core-values-section">
             <div class="container">
                 <div class="row">
