@@ -133,7 +133,7 @@
         }
     }
     .goobi-safe-relaxing-details{
-        padding: 120px 0;
+        padding: 120px 0 80px;
         .row{
             align-items: center;
         }
@@ -168,6 +168,88 @@
                 line-height: 30px;
                 color: #576273;
                 font-family: $font-family-lato;
+            }
+        }
+    }
+    .goobi-safety-section{
+        padding: 40px 0 100px;
+        .goobi-safety-blass-block{
+            .goobi-safety-blass-car{
+                overflow: hidden;
+                width: 100%;
+                height: 500px;
+                margin-bottom: 30px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-position: center;
+                    object-fit: cover;
+                }
+            }
+            .goobi-safety-blass-details{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .goobi-safety-blass{
+                    p{
+                        font-family: $font-family-SourcePro;
+                        font-size: 14px;
+                        font-weight: normal;
+                        color: #000000;
+                        letter-spacing: 0.29px;
+                        text-transform: uppercase;
+                    }
+                    .prise-title-main{
+                        font-family: $font-family-SourcePro;
+                        font-weight: bold;
+                        font-size: 24px;
+                        color: #0D121A;
+                        letter-spacing: -0.25px;
+                    }
+                }
+                .goobi-safety-blass-prise{
+                    width: calc(100% - 130px);
+                    p{
+                        font-family: $font-family-SourcePro;
+                        font-size: 14px;
+                        font-weight: normal;
+                        color: #000000;
+                        letter-spacing: 0.29px;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+        .goobi-next-window-block-main{
+            padding: 15px;
+            border: 1px solid #D8D8D8;
+            .goobi-vehicle-glass-block{
+                overflow-x: auto;
+                height: 500px;
+                margin-bottom: 15px;
+            }
+            .goobi-next-window-btn{
+                border: 1px solid #D7D8DA;
+                border-radius: 2px; 
+                padding: 12px;
+                width: 100%;
+                outline: none;
+                box-shadow: none;
+                font-family: $font-family-SourcePro;
+                font-size: 12px;
+                color: #162142;
+                letter-spacing: 1.71px;
+                text-align: center;
+                font-weight: 600;
+                text-transform: uppercase;
+                background: transparent;
+                transition: all 0.3s ease-in-out;
+                &:hover{
+                    opacity: 0.8;
+                    background: $primary;
+                    border-color: $primary;
+                    color: white;
+                }
             }
         }
     }

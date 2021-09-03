@@ -149,3 +149,38 @@ main{
     color: #0D121A;
     font-family: $font-family-lato;
 }
+
+.goobi-choose-vehicle-color{
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    .goobi-vehicle-color-img{
+        width: 67px;
+        height: 67px;
+        overflow: hidden;
+        border-radius: 100px;
+        img{
+            width: 100%;
+            height:100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+    .goobi-vehicle-color-details{
+        margin-left: 15px;
+        h4{
+            font-weight: 500;
+            font-size: 18px;
+            color: #0D121A;
+            letter-spacing: 0.75px;
+            font-family: $font-family-lato;
+            margin-bottom: 6px;
+        }
+        p{
+            font-weight: 400;
+            font-size: 15px;
+            color: #0D121A;
+            font-family: $font-family-lato;
+        }
+    }
+}

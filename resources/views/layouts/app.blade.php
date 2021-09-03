@@ -30,9 +30,8 @@
         </main>
         @include('includes.footer')
     </div>
-    <script src="{{ asset('plugins/aos/aos.js') }}"></script>
-
     
+    <script src="{{ asset('plugins/aos/aos.js') }}"></script>
     <script type="text/javascript">
         AOS.init({once:'true'});
     </script>

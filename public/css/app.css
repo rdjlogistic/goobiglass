@@ -334,7 +334,7 @@
      object-position: center;
 }
 .goobiglass-layout-wrapper .goobi-safe-relaxing-details {
-  padding: 120px 0;
+  padding: 120px 0 80px;
 }
 .goobiglass-layout-wrapper .goobi-safe-relaxing-details .row {
   align-items: center;
@@ -373,6 +373,86 @@
   line-height: 30px;
   color: #576273;
   font-family: "Lato", sans-serif;
+}
+.goobiglass-layout-wrapper .goobi-safety-section {
+  padding: 40px 0 100px;
+}
+.goobiglass-layout-wrapper .goobi-safety-section .goobi-safety-blass-block .goobi-safety-blass-car {
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 30px;
+}
+.goobiglass-layout-wrapper .goobi-safety-section .goobi-safety-blass-block .goobi-safety-blass-car img {
+  width: 100%;
+  height: 100%;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.goobiglass-layout-wrapper .goobi-safety-section .goobi-safety-blass-block .goobi-safety-blass-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.goobiglass-layout-wrapper .goobi-safety-section .goobi-safety-blass-block .goobi-safety-blass-details .goobi-safety-blass p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #000000;
+  letter-spacing: 0.29px;
+  text-transform: uppercase;
+}
+.goobiglass-layout-wrapper .goobi-safety-section .goobi-safety-blass-block .goobi-safety-blass-details .goobi-safety-blass .prise-title-main {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #0D121A;
+  letter-spacing: -0.25px;
+}
+.goobiglass-layout-wrapper .goobi-safety-section .goobi-safety-blass-block .goobi-safety-blass-details .goobi-safety-blass-prise {
+  width: calc(100% - 130px);
+}
+.goobiglass-layout-wrapper .goobi-safety-section .goobi-safety-blass-block .goobi-safety-blass-details .goobi-safety-blass-prise p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #000000;
+  letter-spacing: 0.29px;
+  text-transform: uppercase;
+}
+.goobiglass-layout-wrapper .goobi-safety-section .goobi-next-window-block-main {
+  padding: 15px;
+  border: 1px solid #D8D8D8;
+}
+.goobiglass-layout-wrapper .goobi-safety-section .goobi-next-window-block-main .goobi-vehicle-glass-block {
+  overflow-x: auto;
+  height: 500px;
+  margin-bottom: 15px;
+}
+.goobiglass-layout-wrapper .goobi-safety-section .goobi-next-window-block-main .goobi-next-window-btn {
+  border: 1px solid #D7D8DA;
+  border-radius: 2px;
+  padding: 12px;
+  width: 100%;
+  outline: none;
+  box-shadow: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12px;
+  color: #162142;
+  letter-spacing: 1.71px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+}
+.goobiglass-layout-wrapper .goobi-safety-section .goobi-next-window-block-main .goobi-next-window-btn:hover {
+  opacity: 0.8;
+  background: #9FD067;
+  border-color: #9FD067;
+  color: white;
 }
 .goobiglass-layout-wrapper .goobi-core-values-section {
   padding: 100px 0 40px;
@@ -515,42 +595,6 @@
   overflow-x: auto;
   height: 500px;
   margin-bottom: 30px;
-}
-.goobiglass-main .goobi-cardetails-wrapper .goobi-cardetails-details .goobi-car-color-category .goobi-choose-vehicle-color-block .goobi-choose-vehicle-color {
-  display: flex;
-  align-items: center;
-  margin-bottom: 18px;
-}
-.goobiglass-main .goobi-cardetails-wrapper .goobi-cardetails-details .goobi-car-color-category .goobi-choose-vehicle-color-block .goobi-choose-vehicle-color .goobi-vehicle-color-img {
-  width: 67px;
-  height: 67px;
-  overflow: hidden;
-  border-radius: 100px;
-}
-.goobiglass-main .goobi-cardetails-wrapper .goobi-cardetails-details .goobi-car-color-category .goobi-choose-vehicle-color-block .goobi-choose-vehicle-color .goobi-vehicle-color-img img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
-}
-.goobiglass-main .goobi-cardetails-wrapper .goobi-cardetails-details .goobi-car-color-category .goobi-choose-vehicle-color-block .goobi-choose-vehicle-color .goobi-vehicle-color-details {
-  margin-left: 15px;
-}
-.goobiglass-main .goobi-cardetails-wrapper .goobi-cardetails-details .goobi-car-color-category .goobi-choose-vehicle-color-block .goobi-choose-vehicle-color .goobi-vehicle-color-details h4 {
-  font-weight: 500;
-  font-size: 18px;
-  color: #0D121A;
-  letter-spacing: 0.75px;
-  font-family: "Lato", sans-serif;
-  margin-bottom: 6px;
-}
-.goobiglass-main .goobi-cardetails-wrapper .goobi-cardetails-details .goobi-car-color-category .goobi-choose-vehicle-color-block .goobi-choose-vehicle-color .goobi-vehicle-color-details p {
-  font-weight: 400;
-  font-size: 15px;
-  color: #0D121A;
-  font-family: "Lato", sans-serif;
 }
 .goobiglass-main .goobi-cardetails-wrapper .goobi-cardetails-details .goobi-car-color-category .goobi-color-picker-wrapper {
   padding: 20px;
@@ -10741,6 +10785,43 @@ main {
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
+  color: #0D121A;
+  font-family: "Lato", sans-serif;
+}
+
+.goobi-choose-vehicle-color {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.goobi-choose-vehicle-color .goobi-vehicle-color-img {
+  width: 67px;
+  height: 67px;
+  overflow: hidden;
+  border-radius: 100px;
+}
+.goobi-choose-vehicle-color .goobi-vehicle-color-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.goobi-choose-vehicle-color .goobi-vehicle-color-details {
+  margin-left: 15px;
+}
+.goobi-choose-vehicle-color .goobi-vehicle-color-details h4 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #0D121A;
+  letter-spacing: 0.75px;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 6px;
+}
+.goobi-choose-vehicle-color .goobi-vehicle-color-details p {
+  font-weight: 400;
+  font-size: 15px;
   color: #0D121A;
   font-family: "Lato", sans-serif;
 }

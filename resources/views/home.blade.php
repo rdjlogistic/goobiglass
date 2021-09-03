@@ -60,27 +60,99 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="goobi-safety-section">
             <div class="container">
-                <div class="col-md-7 col-lg-8">
-                    <div class="">
-                        <div class="">
-
-                        </div>
-                        <div class="">
-                            <div class="">
-                                <p>20" M STAR-SPOKE BI-COLOR WHEELS, STYLE 740M WITH ALL-SEASON RUN-FLAT TIRES</p>
-                                <h6 class="blog-title-main">Convenience and safety to keep you moving all year.</h6>
+                <div class="row">
+                    <div class="col-md-7 col-lg-8">
+                        <div class="goobi-safety-blass-block">
+                            <div class="goobi-safety-blass-car">
+                                <img src="{{asset('images/safery-view-img.png') }}" alt="">
                             </div>
-                            <div class="">
-                                <p>MSRP AS BUILT</p>
-                                <h6 class="blog-title-main">$69,750</h6>
+                            <div class="goobi-safety-blass-details">
+                                <div class="goobi-safety-blass-prise ">
+                                    <p>20" M STAR-SPOKE BI-COLOR WHEELS, STYLE 740M WITH ALL-SEASON RUN-FLAT TIRES</p>
+                                    <h6 class="blog-title-main">Convenience and safety to keep you moving all year.</h6>
+                                </div>
+                                <div class="goobi-safety-blass">
+                                    <p>MSRP AS BUILT</p>
+                                    <h6 class="prise-title-main">$69,750</h6>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-5 col-lg-4">
-                    
+                    <div class="col-md-5 col-lg-4">
+                        <div class="goobi-next-window-block-main">
+                            <div class="goobi-vehicle-glass-block">
+                                <div class="goobi-choose-vehicle-color">
+                                    <div class="creafix">
+                                        <div class="goobi-vehicle-color-img">
+                                            <img src="{{asset('images/vedicle-white-img.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="goobi-vehicle-color-details">
+                                        <h4>Alpine White</h4>
+                                        <p>$15</p>
+                                    </div>
+                                </div>
+                                <div class="goobi-choose-vehicle-color">
+                                    <div class="creafix">
+                                        <div class="goobi-vehicle-color-img">
+                                            <img src="{{asset('images/vedicle-black-img.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="goobi-vehicle-color-details">
+                                        <h4>Jet Black</h4>
+                                        <p>$15</p>
+                                    </div>
+                                </div>
+                                <div class="goobi-choose-vehicle-color">
+                                    <div class="creafix">
+                                        <div class="goobi-vehicle-color-img">
+                                            <img src="{{asset('images/vedicle-white-img.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="goobi-vehicle-color-details">
+                                        <h4>Alpine White</h4>
+                                        <p>$15</p>
+                                    </div>
+                                </div>
+                                <div class="goobi-choose-vehicle-color">
+                                    <div class="creafix">
+                                        <div class="goobi-vehicle-color-img">
+                                            <img src="{{asset('images/vedicle-black-img.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="goobi-vehicle-color-details">
+                                        <h4>Jet Black</h4>
+                                        <p>$15</p>
+                                    </div>
+                                </div>
+                                <div class="goobi-choose-vehicle-color">
+                                    <div class="creafix">
+                                        <div class="goobi-vehicle-color-img">
+                                            <img src="{{asset('images/vedicle-white-img.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="goobi-vehicle-color-details">
+                                        <h4>Alpine White</h4>
+                                        <p>$15</p>
+                                    </div>
+                                </div>
+                                <div class="goobi-choose-vehicle-color">
+                                    <div class="creafix">
+                                        <div class="goobi-vehicle-color-img">
+                                            <img src="{{asset('images/vedicle-black-img.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="goobi-vehicle-color-details">
+                                        <h4>Jet Black</h4>
+                                        <p>$15</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="goobi-next-window-btn">Next / window</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
