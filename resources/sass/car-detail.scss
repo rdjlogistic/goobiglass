@@ -1,0 +1,101 @@
+.goobiglass-main{
+    .goobi-cardetails-wrapper{
+        width: 100%;
+        height: 95vh;
+        background: #F6F6F6;
+        .vehicle-page-title{
+            margin-bottom: 20px;
+            font-size: 21px;
+            color: black;
+            font-weight: 600;
+            font-family: $font-family-lato;
+        }
+        .goobi-cardetails-details{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            @include media-breakpoint-down(sm) {
+                flex-direction: column;
+            }
+            .goobi-car-view-block{
+                width: calc(100% - 392px);
+                height: 100%;
+                background: #F6F6F6;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 30px;
+                @include media-breakpoint-down(sm) {
+                    width: 100%;
+                }
+                .goobi-car-view-img{
+                    width: auto;
+                    height: 350px;
+                    margin: auto;
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                        height:100%;
+                        object-fit: contain;
+                        object-position: center;
+                    }
+                }
+            }
+            .goobi-car-color-category{
+                flex: 1;
+                background: $white;
+                height: 100%;
+                padding: 45px 30px;
+                @include media-breakpoint-down(sm) {
+                    width: 100%;
+                }
+                .goobi-choose-vehicle-color-block{
+                    overflow-x: auto;
+                    height: 500px;
+                    margin-bottom: 30px;
+                    .goobi-choose-vehicle-color{
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 18px;
+                        .goobi-vehicle-color-img{
+                            width: 67px;
+                            height: 67px;
+                            overflow: hidden;
+                            border-radius: 100px;
+                            img{
+                                width: 100%;
+                                height:100%;
+                                object-fit: cover;
+                                object-position: center;
+                            }
+                        }
+                        .goobi-vehicle-color-details{
+                            margin-left: 15px;
+                            h4{
+                                font-weight: 500;
+                                font-size: 18px;
+                                color: #0D121A;
+                                letter-spacing: 0.75px;
+                                font-family: $font-family-lato;
+                                margin-bottom: 6px;
+                            }
+                            p{
+                                font-weight: 400;
+                                font-size: 15px;
+                                color: #0D121A;
+                                font-family: $font-family-lato;
+                            }
+                        }
+                    }
+                }
+                .goobi-color-picker-wrapper{
+                    padding: 20px;
+                    background: white;
+                    border: 1px solid #F6F6F6;
+                }
+            }
+        }
+    }
+}
